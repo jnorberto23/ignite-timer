@@ -1,7 +1,13 @@
+import { Button } from "./components/Button";
+
 export function App() {
   return (
-    <div className="App">
-      <h1>a</h1>
+    <div>
+      <Button variant="primary" />
+      <Button variant="secondary" />
+      <Button variant="success" />
+      <Button variant="danger" />
+      <Button />
     </div>
   );
 }
