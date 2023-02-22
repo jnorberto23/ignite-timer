@@ -28,6 +28,5 @@ export const HeaderContainer = styled.header`
         color: ${(props) => props.theme['green-500']};
       }
     }
-    }
   }
 `
